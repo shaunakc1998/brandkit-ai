@@ -68,4 +68,8 @@ This will launch the application in your browser, where you can input your brand
 - Generate a Brand Kit: Click the "Generate Brand Kit" button, and the app will generate a full brand identity, including logos, color palettes, fonts, and taglines.
 - Download Logos: You can view and download the generated logos.
 
+## Screenshots
+<img width="1062" alt="Screenshot 2024-09-12 at 2 25 45 PM" src="https://github.com/user-attachments/assets/8ad47b50-a4d1-437b-85c3-aa38e3d5bc13">
+
+
 
