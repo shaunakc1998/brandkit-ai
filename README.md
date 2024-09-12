@@ -56,9 +56,11 @@ The tool outputs:
    claude_api_key = "your-anthropic-api-key"  # Replace with your Claude API key
    pinecone_api_key = "your-pinecone-api-key"  # Replace with your Pinecone API key
 
-   You can get your API keys from the following services:
-   OpenAI API
-   Anthropic API
-   Pinecone API
+4. **Run the Application**:
+   To start the Streamlit app, run the following command:
+   ```bash
+   streamlit run app.py
+
+This will launch the application in your browser, where you can input your brand details and generate your brand kit and logo.
 
 
