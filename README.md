@@ -33,3 +33,10 @@ The tool outputs:
    ```bash
    git clone https://github.com/yourusername/ai-brandkit.git
    cd brand-kit-generator
+
+2. **Install dependencies**:
+
+Install the required Python packages by running:
+   ```bash
+pip install -r requirements.txt
+
