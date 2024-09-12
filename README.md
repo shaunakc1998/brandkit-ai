@@ -40,20 +40,20 @@ The tool outputs:
    ```bash
    pip install -r requirements.txt
 
-3. Add your API keys:
+3. **Add your API keys**:
 
-To use this project, you'll need API keys for the following services:
+   To use this project, you'll need API keys for the following services:
 
-OpenAI API: Used for generating logos with DALL-E.
-Anthropic API (Claude): Used for generating brand kits (taglines, color schemes, etc.).
-Pinecone API: Used for vector similarity search (brand similarity).
+   OpenAI API: Used for generating logos with DALL-E.
+   Anthropic API (Claude): Used for generating brand kits (taglines, color schemes, etc.).
+   Pinecone API: Used for vector similarity search (brand similarity).
 
-Adding Your API Keys
-In app.py and streamlit.py, you'll find placeholders where the API keys are set. Replace the placeholders with your own keys:
-```bash
-# Set your API keys here
-openai.api_key = "your-openai-api-key"  # Replace with your OpenAI API key
-claude_api_key = "your-anthropic-api-key"  # Replace with your Claude API key
-pinecone_api_key = "your-pinecone-api-key"  # Replace with your Pinecone API key
+   ## Adding Your API Keys
+   In app.py and streamlit.py, you'll find placeholders where the API keys are set. Replace the placeholders with your own keys:
+   ```bash
+   # Set your API keys here
+   openai.api_key = "your-openai-api-key"  # Replace with your OpenAI API key
+   claude_api_key = "your-anthropic-api-key"  # Replace with your Claude API key
+   pinecone_api_key = "your-pinecone-api-key"  # Replace with your Pinecone API key
 
 
