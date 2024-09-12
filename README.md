@@ -56,4 +56,9 @@ The tool outputs:
    claude_api_key = "your-anthropic-api-key"  # Replace with your Claude API key
    pinecone_api_key = "your-pinecone-api-key"  # Replace with your Pinecone API key
 
+   You can get your API keys from the following services:
+   OpenAI API
+   Anthropic API
+   Pinecone API
+
 
