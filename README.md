@@ -63,4 +63,9 @@ The tool outputs:
 
 This will launch the application in your browser, where you can input your brand details and generate your brand kit and logo.
 
+## Usage
+Input Your Brand Details: Fill out the form in the Streamlit app with information about your brand (e.g., brand name, description, industry, personality).
+Generate a Brand Kit: Click the "Generate Brand Kit" button, and the app will generate a full brand identity, including logos, color palettes, fonts, and taglines.
+Download Logos: You can view and download the generated logos.
+
 
