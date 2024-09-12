@@ -36,7 +36,7 @@ The tool outputs:
 
 2. **Install dependencies**:
 
-Install the required Python packages by running:
+   Install the required Python packages by running:
    ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
