@@ -71,5 +71,11 @@ This will launch the application in your browser, where you can input your brand
 ## Screenshots
 <img width="1062" alt="Screenshot 2024-09-12 at 2 25 45 PM" src="https://github.com/user-attachments/assets/8ad47b50-a4d1-437b-85c3-aa38e3d5bc13">
 
+<img width="1128" alt="Screenshot 2024-09-12 at 2 26 01 PM" src="https://github.com/user-attachments/assets/c2803658-fe87-4545-845c-337580a031a1">
+
+<img width="751" alt="Screenshot 2024-09-12 at 2 26 24 PM" src="https://github.com/user-attachments/assets/f9f26b5f-98e7-46c4-b224-19175ad1ce38">
+
+
+
 
 
