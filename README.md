@@ -75,4 +75,7 @@ This will launch the application in your browser, where you can input your brand
 
 <img width="751" alt="Screenshot 2024-09-12 at 2 26 24 PM" src="https://github.com/user-attachments/assets/f9f26b5f-98e7-46c4-b224-19175ad1ce38">
 
+This project is licensed under the MIT License.
+
+
 
