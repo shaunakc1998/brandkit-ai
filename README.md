@@ -31,8 +31,8 @@ The tool outputs:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/ai-brandkit.git
-   cd brand-kit-generator
+   git clone https://github.com/yourusername/brandkit-ai.git
+   cd brandkit-ai
 
 2. **Install dependencies**:
 
