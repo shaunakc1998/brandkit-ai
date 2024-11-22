@@ -3,6 +3,10 @@
 !pip install tensorflow
 
 import pandas as pd
+import pinecone
+from sentence_transformers import SentenceTransformer
+import json
+import numpy as np
 
 # Load the dataset with error handling for different encodings
 file_path = "/content/company_info.csv"
@@ -13,38 +17,6 @@ except UnicodeDecodeError:
         df = pd.read_csv(file_path, encoding='latin-1')
     except UnicodeDecodeError:
         df = pd.read_csv(file_path, encoding='iso-8859-1')
-
-# Function to concatenate relevant columns into a single text field
-def concatenate_text(row):
-    text_columns = [
-        'brand_tagline', 'brand_description', 'brand_mission',
-        'logo_description', 'brand_logo', 'brand_industry', 'brand_colors',
-        'brand_fonts', 'brand_personality', 'company_keywords', 'target_segment'
-    ]
-    return ' '.join(str(row[col]) for col in text_columns if pd.notna(row[col]))
-
-# Create a combined text field for embedding
-df['combined_text'] = df.apply(concatenate_text, axis=1)
-
-# Preprocess the text (cleaning up special characters)
-df['processed_text'] = df['combined_text'].str.lower().str.replace('[^\w\s]', ' ')
-
-# Show the processed DataFrame
-df[['combined_text', 'processed_text']].head()
-
-from sentence_transformers import SentenceTransformer
-
-# Initialize the sentence transformer model
-model = SentenceTransformer('all-MPNet-base-v2')
-
-# Encode the text to get embeddings
-embeddings = model.encode(df['processed_text'].tolist())
-
-import pinecone
-from sentence_transformers import SentenceTransformer
-import json
-import pandas as pd
-import numpy as np
 
 # Initialize Pinecone
 PINECONE_API_KEY = "your-pinecone-api-key"
