@@ -1,6 +1,6 @@
 !pip install sentence-transformers
 !pip install pinecone-client
-!pip install tenserflow
+!pip install tensorflow
 
 import pandas as pd
 
